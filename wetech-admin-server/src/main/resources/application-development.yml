@@ -1,0 +1,8 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.56.1:3306/wetech_admin
+        username: bill
+        password: passpass
+        hikari:
+            max-lifetime: 1000000
